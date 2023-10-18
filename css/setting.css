@@ -1,90 +1,71 @@
 html {
-  line-height: 1.5; /* Increase line height for better readability */
-  -webkit-text-size-adjust: 100%; /* Disable text size adjustments in iOS */
-  font-family: Arial, sans-serif; /* Change the font to Arial */
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: Playfair Display, serif;
 }
 
-/* Sections
-   ========================================================================== */
-
-/**
- * Remove the margin in all browsers.
- */
-
+/* Sections */
 body {
   margin: 0;
-  background-color: #F5F5F5; /* Change the background color */
-  color: #333; /* Change the text color */
+  background-color: #F2EFFF; 
+  color: #000; 
 }
-
-/**
- * Render the `main` element consistently in IE.
- */
 
 main {
   display: block;
 }
 
 h1 {
-  font-size: 2.5em; /* Increase the font size */
-  margin: 0.8em 0; /* Adjust the margin */
-  font-family: "Helvetica Neue", sans-serif; /* Change the font */
+  font-size: 2.5em;
+  margin: 0.8em 0;
+  font-family: "Playfair Display", serif; 
+  color: #7E5DAE; 
 }
 
-/* Grouping content
-   ========================================================================== */
-
+/* Grouping content */
 hr {
-  box-sizing: border-box; /* Change box sizing for compatibility */
-  height: 2px; /* Change HR height */
-  overflow: hidden; /* Hide HR overflow */
-  background-color: #0073e6; /* Change HR color */
+  box-sizing: border-box;
+  height: 2px;
+  overflow: hidden;
+  background-color: #A894D1; 
 }
-
 
 pre {
-  font-family: "Courier New", monospace; /* Change the font */
-  font-size: 1.1em; /* Increase font size */
-  line-height: 1.2; /* Adjust line height */
+  font-family: "Courier New", monospace;
+  font-size: 1.1em;
+  line-height: 1.2;
 }
-
-/* Text-level semantics
-   ========================================================================== */
 
 
 a {
   background-color: transparent;
-  color: #0073e6; /* Change link color */
+  color: #7E5DAE; 
 }
-
 
 abbr[title] {
-  border-bottom: 1px dotted #0073e6; /* Add dotted underline */
-  text-decoration: none; /* Remove default underline */
+  border-bottom: 1px dotted #7E5DAE;
+  text-decoration: none;
 }
-
 
 b,
 strong {
-  font-weight: bold; /* Change font weight */
+  font-weight: bold;
 }
 
 code,
 kbd,
 samp {
-  font-family: "Courier New", monospace; /* Change the font */
-  font-size: 1em; /* Set font size to default */
+  font-family: "Courier New", monospace;
+  font-size: 1em;
 }
-
 
 small {
-  font-size: 90%; /* Slightly reduce font size */
+  font-size: 90%;
 }
-
 
 sub,
 sup {
-  font-size: 75%; /* Reduce font size */
+  font-size: 75%;
   line-height: 0;
   position: relative;
   vertical-align: baseline;
@@ -98,39 +79,32 @@ sup {
   top: -0.5em;
 }
 
-/* Embedded content
-   ========================================================================== */
-
+/* Embedded content */
 img {
   border-style: none;
 }
 
-/* Forms
-   ========================================================================== */
-
+/* Forms */
 button,
 input,
 optgroup,
 select,
 textarea {
-  font-family: "Arial", sans-serif; /* Change the font */
+  font-family: "Arial", sans-serif;
   font-size: 100%;
-  line-height: 1.5; /* Increase line height for better readability */
-  margin: 0; /* Remove default margin */
+  line-height: 1.5;
+  margin: 0;
 }
-
 
 button,
 input {
   overflow: visible;
 }
 
-
 button,
 select {
   text-transform: none;
 }
-
 
 button,
 [type="button"],
@@ -138,7 +112,6 @@ button,
 [type="submit"] {
   -webkit-appearance: button;
 }
-
 
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -148,7 +121,6 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
-
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -156,52 +128,42 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
-
 fieldset {
   padding: 0.5em 1em;
 }
 
 legend {
-  box-sizing: border-box; /* Adjust box sizing */
-  color: #333; /* Change text color */
+  box-sizing: border-box;
+  color: #000; 
   display: table;
   max-width: 100%;
-  padding: 0; /* Remove padding */
+  padding: 0;
   white-space: normal;
 }
-
-
 
 progress {
   vertical-align: baseline;
 }
 
-
 textarea {
   overflow: auto;
 }
 
-
 [type="checkbox"],
 [type="radio"] {
-  box-sizing: border-box; /* Adjust box sizing */
-  padding: 0; /* Remove padding */
+  box-sizing: border-box;
+  padding: 0;
 }
-
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-
-
 [type="search"] {
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
-
-
 
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
