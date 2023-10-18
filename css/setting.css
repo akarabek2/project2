@@ -2,14 +2,14 @@ html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   font-family: Playfair Display, serif;
-  color: black; 
+  color: black;
 }
 
 /* Sections */
 body {
   margin: 0;
-  background-color: #E5E2FF; 
-  color: black; 
+  background-color: #E5E2FF;
+  color: black;
 }
 
 main {
@@ -20,7 +20,7 @@ h1 {
   font-size: 2.5em;
   margin: 0.8em 0;
   font-family: "Playfair Display", serif;
-  color: #7E5DAE; 
+  color: #7E5DAE;
 }
 
 /* Grouping content */
@@ -28,7 +28,7 @@ hr {
   box-sizing: border-box;
   height: 2px;
   overflow: hidden;
-  background-color: #A894D1; 
+  background-color: #A894D1;
 }
 
 pre {
@@ -39,7 +39,7 @@ pre {
 
 a {
   background-color: transparent;
-  color: #7E5DAE; 
+  color: #7E5DAE;
 }
 
 abbr[title] {
@@ -82,6 +82,8 @@ sup {
 /* Embedded content */
 img {
   border-style: none;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Forms */
@@ -134,7 +136,7 @@ fieldset {
 
 legend {
   box-sizing: border-box;
-  color: black; 
+  color: black;
   display: table;
   max-width: 100%;
   padding: 0;
@@ -168,4 +170,3 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
-
