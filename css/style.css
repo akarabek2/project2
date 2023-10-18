@@ -1,5 +1,5 @@
 body {
-  background: repeating-linear-gradient(90deg, #FFD4E8, #FFD4E8 20px, #FFFFFF 0, #FFFFFF 40px);
+  background: repeating-linear-gradient(90deg, #C4C3FF, #C4C3FF 20px, #EAE8FF 0, #EAE8FF 40px);
 }
 
 p {
@@ -10,13 +10,13 @@ p {
 
 nav {
   overflow: hidden;
-  background-color: #E1DFF3; 
+  background-color: #B7B3FF;
 }
 
 footer {
   width: 100%;
   height: 60px;
-  background-color: #E1DFF3; 
+  background-color: #B7B3FF; 
   padding: 30px;
 }
 
@@ -51,9 +51,9 @@ nav ul li {
   right: 50%;
   list-style-type: none;
   text-decoration: none;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Baskerville', serif; 
   font-size: 20px;
-  text-shadow: -2px 0px #D4A1C1, 0px 2px #D4A1C1, 2px 0px #D4A1C1, 0px -2px #D4A1C1;
+  text-shadow: -2px 0px #FFC2D1, 0px 2px #FFC2D1, 2px 0px #FFC2D1, 0px -2px #FFC2D1;
 }
 
 nav ul li a {
@@ -66,7 +66,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  background-color: #FFC2D1; 
+  background-color: #A0C4FF; 
 }
 
 #onpage {
@@ -75,11 +75,11 @@ nav ul li a:hover {
 
 section {
   color: black;
-  background: linear-gradient(180deg, #FFF7C1 80px, white 10px); 
+  background: linear-gradient(180deg, #D4E7FF 80px, white 10px); 
   width: 60%;
   overflow: auto;
   padding: 0px 20px 20px 20px;
-  box-shadow: 0 0 0 3px #D4A1C1, 0 0 0 10px #FFFFFF;
+  box-shadow: 0 0 0 3px #FFC2D1, 0 0 0 10px #FFFFFF;
   text-align: center;
   margin: 40px auto;
   border-radius: 10px;
@@ -89,7 +89,7 @@ section {
 
 .site-title {
   color: #000; 
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Baskerville', serif; 
   text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
   font-size: 40px;
   padding-left: 50px;
@@ -99,7 +99,7 @@ section {
 .sec-title {
   margin-top: 30px;
   margin-bottom: 50px;
-  font-family: 'Playfair Display', serif; 
+  font-family: 'Baskerville', serif; 
   text-shadow: -2px 0px #FFC2D1, 0px 2px #FFC2D1, 2px 0px #FFC2D1, 0px -2px #FFC2D1;
   color: #FFC2D1;
   font-size: 25px;
@@ -107,8 +107,9 @@ section {
 
 .sub-title {
   color: #FFC2D1; 
-  font-family: 'Playfair Display', serif;
+  font-family: 'Baskerville', serif; 
   font-size: 15px;
   margin-bottom: 20px;
   margin-top: 30px;
 }
+
