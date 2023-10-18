@@ -2,13 +2,14 @@ html {
   line-height: 1.5;
   -webkit-text-size-adjust: 100%;
   font-family: Playfair Display, serif;
+  color: black; 
 }
 
 /* Sections */
 body {
   margin: 0;
-  background-color: #F2EFFF; 
-  color: #000; 
+  background-color: #E5E2FF; 
+  color: black; 
 }
 
 main {
@@ -18,7 +19,7 @@ main {
 h1 {
   font-size: 2.5em;
   margin: 0.8em 0;
-  font-family: "Playfair Display", serif; 
+  font-family: "Playfair Display", serif;
   color: #7E5DAE; 
 }
 
@@ -35,7 +36,6 @@ pre {
   font-size: 1.1em;
   line-height: 1.2;
 }
-
 
 a {
   background-color: transparent;
@@ -134,7 +134,7 @@ fieldset {
 
 legend {
   box-sizing: border-box;
-  color: #000; 
+  color: black; 
   display: table;
   max-width: 100%;
   padding: 0;
@@ -168,3 +168,4 @@ textarea {
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
