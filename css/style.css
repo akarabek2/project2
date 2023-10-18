@@ -1,22 +1,22 @@
 body {
-  background: repeating-linear-gradient(90deg, #FFEAF1, #FFEAF1 20px, #FFFFFF 0, #FFFFFF 40px);
+  background: repeating-linear-gradient(90deg, #FFD4E8, #FFD4E8 20px, #FFFFFF 0, #FFFFFF 40px);
 }
 
 p {
   font-size: 13px;
-  color: #868E96;
+  color: #000; 
   font-weight: 500;
 }
 
 nav {
   overflow: hidden;
-  background-color: #E8EAF3;
+  background-color: #E1DFF3; 
 }
 
 footer {
   width: 100%;
   height: 60px;
-  background-color: #E8EAF3;
+  background-color: #E1DFF3; 
   padding: 30px;
 }
 
@@ -53,20 +53,20 @@ nav ul li {
   text-decoration: none;
   font-family: 'Press Start 2P', cursive;
   font-size: 20px;
-  text-shadow: -2px 0px #F6638F, 0px 2px #F6638F, 2px 0px #F6638F, 0px -2px #F6638F;
+  text-shadow: -2px 0px #D4A1C1, 0px 2px #D4A1C1, 2px 0px #D4A1C1, 0px -2px #D4A1C1;
 }
 
 nav ul li a {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
-  color: #fff;
-  font-family: Arial, sans-serif; /* Change the font */
-  font-size: 16px; /* Change the font size */
+  color: #000; 
+  font-family: Playfair Display, serif; 
+  font-size: 16px;
 }
 
 nav ul li a:hover {
-  background-color: #FFCBDA;
+  background-color: #FFC2D1; 
 }
 
 #onpage {
@@ -75,21 +75,21 @@ nav ul li a:hover {
 
 section {
   color: black;
-  background: linear-gradient(180deg, #FEFACA 80px, white 10px);
+  background: linear-gradient(180deg, #FFF7C1 80px, white 10px); 
   width: 60%;
   overflow: auto;
   padding: 0px 20px 20px 20px;
-  box-shadow: 0 0 0 3px #F6638F, 0 0 0 10px #FFFFFF;
+  box-shadow: 0 0 0 3px #D4A1C1, 0 0 0 10px #FFFFFF;
   text-align: center;
   margin: 40px auto;
   border-radius: 10px;
-  font-family: Arial, sans-serif; /* Change the font */
-  font-size: 14px; /* Change the font size */
+  font-family: Playfair Display, serif; 
+  font-size: 14px;
 }
 
 .site-title {
-  color: #FFFFFF;
-  font-family: 'Press Start 2P', cursive;
+  color: #000; 
+  font-family: 'Playfair Display', serif; 
   text-shadow: -4px 0px #D1EFE3, 0px 4px #D1EFE3, 4px 0px #D1EFE3, 0px -4px #D1EFE3;
   font-size: 40px;
   padding-left: 50px;
@@ -99,15 +99,15 @@ section {
 .sec-title {
   margin-top: 30px;
   margin-bottom: 50px;
-  font-family: 'Press Start 2P', cursive;
-  text-shadow: -2px 0px #FFCBDA, 0px 2px #FFCBDA, 2px 0px #FFCBDA, 0px -2px #FFCBDA;
-  color: #FFCBDA;
+  font-family: 'Playfair Display', serif; 
+  text-shadow: -2px 0px #FFC2D1, 0px 2px #FFC2D1, 2px 0px #FFC2D1, 0px -2px #FFC2D1;
+  color: #FFC2D1;
   font-size: 25px;
 }
 
 .sub-title {
-  color: #FFCBDA;
-  font-family: 'Press Start 2P', cursive;
+  color: #FFC2D1; 
+  font-family: 'Playfair Display', serif;
   font-size: 15px;
   margin-bottom: 20px;
   margin-top: 30px;
